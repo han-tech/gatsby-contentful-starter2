@@ -54,7 +54,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix *.js bin/*.js",
     "postinstall": "node ./bin/hello.js",
-    "setup": "node ./bin/setup.js",
+    "setup": "node ./bin/setup.js --spaceId=yrx3i4mxolxy --accessToken=ya_tS8wtTyeSYKDQf44VofqOyHnwftaInkzuH1yv8dA --managementToken=CFPAT-Ewu25znaHh46yBmhASoegwJIr9jyo7dZK9SbV4kB5u4",
     "start": "npm run develop",
     "heroku-postbuild": "gatsby build",
     "cleanup-repository": "rimraf bin contentful && yarn remove contentful-import chalk inquirer rimraf "
