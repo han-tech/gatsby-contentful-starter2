@@ -32,3 +32,4 @@ configFiles.forEach(file => {
   writeFileSync(file, fileContents, 'utf8')
   console.log(`Config file ${chalk.yellow(file)} written`)
 })  
+
